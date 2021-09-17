@@ -1,6 +1,6 @@
 // This is a generated file. Do not edit directly.
 
-module k8s.io/kubectl
+module github.com/mertyildiran/kubectl
 
 go 1.16
 
@@ -32,7 +32,7 @@ require (
 	golang.org/x/sys v0.0.0-20210820121016-41cdb8703e55
 	gopkg.in/yaml.v2 v2.4.0
 	k8s.io/api v0.0.0-20210914033158-96087243fecb
-	k8s.io/apimachinery v0.0.0-20210910032850-71bf7ba06cd4
+	github.com/mertyildiran/apimachinery v0.22.3
 	k8s.io/cli-runtime v0.0.0-20210910202839-27e21c984482
 	k8s.io/client-go v0.0.0-20210914033510-a5f006eba4a8
 	k8s.io/component-base v0.0.0-20210909233903-eae60e423670
@@ -48,7 +48,7 @@ require (
 
 replace (
 	k8s.io/api => k8s.io/api v0.0.0-20210914033158-96087243fecb
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20210910032850-71bf7ba06cd4
+	k8s.io/apimachinery => github.com/mertyildiran/apimachinery v0.22.3
 	k8s.io/cli-runtime => k8s.io/cli-runtime v0.0.0-20210910202839-27e21c984482
 	k8s.io/client-go => k8s.io/client-go v0.0.0-20210914033510-a5f006eba4a8
 	k8s.io/code-generator => k8s.io/code-generator v0.0.0-20210910032656-cefb511e9417
